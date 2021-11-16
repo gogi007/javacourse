@@ -40,7 +40,7 @@ class BankTest {
 		//when
 		List<Account> premiumAccounts = bank.getPremiumAccounts();
 		
-		//then
+		//then		
 		Assertions.assertEquals(1, premiumAccounts.size());
 		Assertions.assertEquals(new Account("Tom", "12348888"), premiumAccounts.get(0));
 	}
